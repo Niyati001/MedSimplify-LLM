@@ -1,24 +1,4 @@
 # MedSimplify-LLM 
-
-An AI assistant fine-tuned to simplify complex medical lab reports into patient-friendly explanations.
-
-## Technical Stack
-- Base Model: Llama 3.2 1B
-- Fine-tuning: QLoRA
-- Framework: Unsloth
-- Quantization: 4-bit
-- Dataset: 50+ medical instruction-output examples
-
-## Features
-- Simplifies lab reports
-- Explains abnormal values
-- Suggests follow-up questions
-
-## Why this matters
-Medical reports are often hard for patients to understand. This project improves healthcare accessibility using efficient LLM fine-tuning.
-
-
-# MedSimplify-LLM 
 ### Clinical Report Translation using Fine-Tuned Llama 3.2 1B for Patient-Centric Medical Literacy  
 
 ---
@@ -38,7 +18,7 @@ This project focuses on making healthcare information more understandable, acces
 
 ## Key Features  
 
-### Contextual Simplification  
+### -> Contextual Simplification  
 Converts technical lab parameters and abbreviations such as:  
 - HbA1c  
 - TSH / T3 / T4  
@@ -50,7 +30,7 @@ into plain-language explanations.
 
 ---
 
-### Risk Contextualization  
+### -> Risk Contextualization  
 Explains not only **what the abnormal value is**, but also:  
 - why it may matter  
 - what body system it affects  
@@ -58,7 +38,7 @@ Explains not only **what the abnormal value is**, but also:
 
 ---
 
-### Patient Empowerment  
+### -> Patient Empowerment  
 Generates 2–3 relevant follow-up questions for patients to ask their doctors to make consultations more productive.
 
 ---
